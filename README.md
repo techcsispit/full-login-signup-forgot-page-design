@@ -24,6 +24,7 @@ Contributions are welcome! Please follow these steps:
 - Make your changes and commit them.
 - Push your changes to your forked repository.
 - Open a pull request detailing your changes.
+
 *Raising an Issue*
 If you encounter any bugs or have feature requests, please create an issue in the repository. Provide detailed information to assist in addressing the problem.
 
