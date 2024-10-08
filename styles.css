@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "poppins";
+}
+
+.left{
+    margin: 5rem;
+    display: flex;
+    height: 300px;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-text{
+    width: max-content;
+}
+
+hr{
+    width: 40%;
+    margin: auto;
+    height: 5px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.login-credentials{
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.user-box, .password-box{
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+span{
+    position: absolute;
+    right: 20px;
+    font-size: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#user, #password{
+    width: 333px;
+    font-size: 16px;
+    padding: 10px 5px;
+    border: 0px;
+    border-bottom: 2px solid rgb(58, 174, 178);
+}
