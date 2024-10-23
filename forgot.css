@@ -10,6 +10,7 @@
 body{
     background-color: #1abc9c;
     overflow: hidden;
+    background-image: linear-gradient(to right top, rgb(202, 148, 157), rgba(255, 0, 38, 0.843), rgb(202, 148, 157));
 }
 
 .container{
@@ -27,6 +28,7 @@ body{
 
 .whole .title{
     background: #16a085;
+    background-image: linear-gradient(to top right, #16a085, #11b782 );
     line-height: 80px;
     font-size: 29px;
     font-weight: 700;
