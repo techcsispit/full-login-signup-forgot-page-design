@@ -8,33 +8,42 @@
 }
 
 body{
-    background-color: #1abc9c;
     overflow: hidden;
+}
+.head {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(77, 70, 33);
+    color: whitesmoke;
+    text-align: center;
 }
 
 .container{
-    max-width: 440px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(image/fpasswd.jpg);
+    background-size: cover;
     padding: 0 20px;
-    margin: 140px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box-main {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 15px 7px rgba(0, 0, 0, 0.658);
 }
 
 .whole{
     width: 100%;
     background: #fff;
-    border-radius: 5px;
     box-shadow: 8px 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-.whole .title{
-    background: #16a085;
-    line-height: 80px;
-    font-size: 29px;
-    font-weight: 700;
-    text-align: center;
-    border-radius: 5px 5px 0 0 ;
-    color: #fff;
-    padding: 0;
-    cursor:default;
 }
 
 .title span{
@@ -68,15 +77,14 @@ form p{
 }
 
 form .row input:focus{
-    border-color: #16a085;
-    box-shadow: inset 0 0 2px 2px rgb(26, 188, 156, 0.25);
+    border-color: rgb(77, 70, 33);
 }
 
 .whole form .row i{
     position: absolute;
     width: 40px;
     height: 100%;
-    background-color: #16a085;
+    background-color: rgb(77, 70, 33);
     color: #fff;
     display: flex;
     align-items: center;
@@ -88,7 +96,7 @@ form .row input:focus{
 .whole form .botton input{
     border: none;
     padding: 0;
-    background: #1abc9c;
+    background: rgb(77, 70, 33);
     color: #fff;
     font-size: 18px;
     font-weight: 600;
@@ -97,8 +105,8 @@ form .row input:focus{
 }
 
 .whole form .botton input:hover{
-    background-color: #16a085;
-    border: 2px solid #1abc9c;
+    background-color: rgb(27, 24, 5);
+    border: 2px solid rgb(77, 70, 33);
 }
 
 .whole form .signup_link{
@@ -109,7 +117,7 @@ form .row input:focus{
 
 .whole form .signup_link a{
     text-decoration: none;
-    color: #067861;
+    color: rgb(32, 29, 14);
 }
 
 .whole form .signup_link a:hover{
